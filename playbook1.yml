@@ -1,0 +1,14 @@
+---
+ - hosts: localhost
+   tasks:
+     - name: Install alpine
+       apt:
+              name: alpine
+              state: present
+
+
+
+     - name: Install epel release
+       apt:
+                name: epel-release
+                state: present
