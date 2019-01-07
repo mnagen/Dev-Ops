@@ -1,0 +1,9 @@
+---
+ - hosts: localhost
+   tasks:
+          - name: Install web server
+            apt:
+                   name: apache2
+                   state: present
+
+           
